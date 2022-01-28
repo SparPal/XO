@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="XO.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>Крестики-нолики</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.svg" class="logo" alt="">
+            <ul class="menu">
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="race.html">Гонки</a></li>
+                <li><a href="jack">Блэкджэк</a></li>
+                <li><a href="guess.html">Угадай число</a></li>
+                <li><a href="XO.html">Крестики-нолики</a></li>
+            </ul>
+            <div class="hamburger-menu">
+                <img src="img/logo.svg" alt="">
+                <input id="menu__toggle" type="checkbox"/>
+                <label class="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+                <ul class="menu__box">
+                    <li><a class="menu__item" href="index.html" style="color: #292727; text-decoration: none; font-size: 40px; font-family: 'Inter'; font-weight: 700; line-height: 2.1em;">Главная</a></li>                  
+                    <li><a class="menu__item" href="race.html" style="color: #292727; text-decoration: none; font-size: 40px; font-family: 'Inter'; font-weight: 700; line-height: 2.1em">Гонки</a></li>                    
+                    <li><a class="menu__item" href="jack.html" style="color: #292727; text-decoration: none; font-size: 40px; font-family: 'Inter'; font-weight: 700; line-height: 2.1em">Блэкджэк</a></li>                    
+                    <li><a class="menu__item" href="guess.html" style="color: #292727; text-decoration: none; font-size: 40px; font-family: 'Inter'; font-weight: 700; line-height: 2.1em">Угадай число</a></li> 
+                    <li><a class="menu__item" href="XO.html" style="color: #292727; text-decoration: none; font-size: 40px; font-family: 'Inter'; font-weight: 700; line-height: 2.1em">Крестики-нолики</a></li>                                     
+                </ul>
+            </div>
+    </header>
+    <h1 class="mainh1">Крестики-нолики</h1>
+    <p class="who">Сейчас ходят : <span class="badge"></span></p>
+    <!--<div class="main"> -->
+        <div class="container">
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+            <div class="item"></div>
+        </div> 
+    <!--</div>-->
+    <div class="iswinner"></div>
+    <script src="XO.js"></script>
+</body>
+</html>
