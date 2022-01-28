@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins';
+    background: #ffffff;
+}
+.block {
+    margin: 300px auto;
+    width: 400px;
+    height: 140px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+input {
+    width: 80%;
+    border-radius: 6px;
+    border: 1px grey solid;
+}
+.xo img {
+    width: 100px;
+}
